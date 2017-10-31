@@ -1,0 +1,21 @@
+{
+  "name": "wxu",
+  "version": "1.0.0",
+  "description": "微信小程序 WeUI 的轻量级补充。",
+  "main": "src/app.js",
+  "directories": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vincheung/wxu.git"
+  },
+  "keywords": ["wx-component", "wxapp"],
+  "author": "vincheung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vincheung/wxu/issues"
+  },
+  "homepage": "https://github.com/vincheung/wxu#readme"
+}

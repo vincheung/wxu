@@ -1,0 +1,11 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">wxu</view>
+    <view class="page__desc">微信小程序 WeUI 的轻量级补充。后续更新 Infinite Scroll 与 Popup。</view>
+  </view>
+  <view class="main">
+    <block wx:for="{{ list }}" wx:key="id">
+      <view class="item" data-index="{{ index }}" bindtap="skip">{{ item.name }}</view>
+    </block>
+  </view>
+</view>

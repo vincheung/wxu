@@ -1,0 +1,53 @@
+.wxu-toast {
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1000;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+}
+
+.wxu-toast-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 240rpx;
+  min-height: 240rpx;
+}
+
+.wxu-toast-top {
+  top: 25%;
+}
+
+.wxu-toast-bottom {
+  top: 75%;
+}
+
+.wxu-mask, .wxu-mask-transparent {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.wxu-mask {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.wxu-toast-text {
+  padding: 20rpx;
+  font-size: 28rpx;
+  line-height: 40rpx;
+}
+
+.wxu-toast-text-icon {
+  padding-bottom: 0;
+}

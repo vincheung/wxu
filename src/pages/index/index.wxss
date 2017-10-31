@@ -1,0 +1,14 @@
+.main {
+  padding: 0 15px 40px;
+}
+.main .item {
+  margin: 10px 0;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+}
+.main .item:first-child {
+  margin-top: 0;
+}

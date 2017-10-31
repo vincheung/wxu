@@ -1,0 +1,16 @@
+<import src="../../components/toast/toast.wxml"/>
+<template is="toast" data="{{ ...wxu.toast }}"/>
+
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">Toast</view>
+    <view class="page__desc">弹出式提示，支持文字与 icon 自由组合。</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-btn-area">
+      <button class="weui-btn" type="default" bindtap="showToast">文字提示</button>
+      <button class="weui-btn" type="default" bindtap="showIcon">icon 提示</button>
+      <button class="weui-btn" type="default" bindtap="showToastIcon">文字与 icon 提示</button>
+    </view>
+  </view>
+</view>

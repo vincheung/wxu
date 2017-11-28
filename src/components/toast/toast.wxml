@@ -1,5 +1,5 @@
 <template name="toast">
-  <view hidden="{{ !show }}">
+  <view hidden="{{ !toastShow }}">
     <view class="wxu-mask-transparent"></view>
     <view animation="{{ animationData }}" class="wxu-toast {{ icon ? 'wxu-toast-flex' : '' }} {{ className }} {{ position === 'top' ? 'wxu-toast-top' : position === 'bottom' ? 'wxu-toast-bottom' : ''}}">
       <icon hidden="{{ !icon }}" type="{{ icon }}" size="50" color="{{ colol ? colol : 'white' }}"/>

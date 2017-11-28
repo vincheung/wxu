@@ -55,7 +55,7 @@ class Component {
 
   setShow(duration = 300) {
     this.setData({
-      [`${this.params.scope}.show`]: true
+      [`${this.params.scope}.toastShow`]: true
     })
     setTimeout(function() {
       let animation = wx.createAnimation({
@@ -80,7 +80,7 @@ class Component {
     })
     setTimeout(function () {
       this.setData({
-        [`${this.params.scope}.show`]: false
+        [`${this.params.scope}.toastShow`]: false
       })
     }.bind(this), duration)
   }

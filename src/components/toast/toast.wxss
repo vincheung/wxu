@@ -6,7 +6,7 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  z-index: 1000;
+  z-index: 9999;
   transform: translate(-50%, -50%);
   text-align: center;
   opacity: 0;
@@ -31,7 +31,7 @@
 
 .wxu-mask, .wxu-mask-transparent {
   position: fixed;
-  z-index: 1000;
+  z-index: 9999;
   top: 0;
   right: 0;
   left: 0;

@@ -11,7 +11,7 @@ duration | 持续时间（毫秒），若为 -1 <br />则不会自动关闭 | Nu
 className | Toast 的自定义类名 | String
 icon | 小程序原生 icon 组件 | String | success, success_no_circle, info, warn, <br />waiting, cancel, download, search, clear
 colol | icon 的颜色 | String | | white
-success | 关闭后的回调函数 | function
+success | 关闭后的回调函数 | Function
 
 > 执行 Toast 方法会返回一个 Toast 实例，每个实例都有 close 方法，用于手动关闭 Toast
 ```js

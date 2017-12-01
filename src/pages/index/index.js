@@ -15,6 +15,11 @@ Page({
         name: 'Popup',
         open: false,
         url: ''
+      },
+      {
+        name: 'Authorize',
+        open: true,
+        url: '/pages/authorize/authorize'
       }
     ]
   },

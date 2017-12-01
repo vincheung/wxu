@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/toast/toast"
+    "pages/toast/toast",
+    "pages/authorize/authorize"
   ],
   "window": {
     "navigationBarTextStyle": "black",

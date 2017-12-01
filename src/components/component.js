@@ -12,8 +12,9 @@ class Component {
   }
 
   isEmptyObject(obj) {
-    for (let key in obj)
+    for (let key in obj) {
       return false
+    }
     return true
   }
 
@@ -55,7 +56,7 @@ class Component {
 
   setShow(duration = 300) {
     this.setData({
-      [`${this.params.scope}.toastShow`]: true
+      [`${this.params.scope}.wxuShow`]: true
     })
     setTimeout(function() {
       let animation = wx.createAnimation({
@@ -80,7 +81,7 @@ class Component {
     })
     setTimeout(function () {
       this.setData({
-        [`${this.params.scope}.toastShow`]: false
+        [`${this.params.scope}.wxuShow`]: false
       })
     }.bind(this), duration)
   }

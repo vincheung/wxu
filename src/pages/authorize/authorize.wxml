@@ -1,0 +1,1 @@
+<view class="center">{{ success ? success : ''}}</view>

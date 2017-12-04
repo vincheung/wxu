@@ -1,7 +1,7 @@
 <view class="page">
   <view class="page__hd">
     <view class="page__title">wxu</view>
-    <view class="page__desc">微信小程序 WeUI 的轻量级补充。后续更新 Infinite Scroll 与 Popup。</view>
+    <view class="page__desc">微信小程序 WeUI 的轻量级补充，及其他组件（Authorize）。后续更新 Infinite Scroll 与 Popup。</view>
   </view>
   <view class="main">
     <block wx:for="{{ list }}" wx:key="id">

@@ -6,15 +6,16 @@ Page({
     // Authorize()
   },
   onShow() {
-    let that = this
     Authorize({
       scope: ['scope.userInfo', 'scope.userLocation'],
       success: () => {
-        that.init()
+        this.init()
       }
     })
   },
   init() {
-    console.log('授权完成，执行 init 函数')
+    this.setData({
+      success: '授权完成，执行 init 函数。'
+    })
   }
 })

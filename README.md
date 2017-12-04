@@ -2,7 +2,7 @@
 
 ## 概述
 
-[wxu](https://github.com/vincheung/wxu) 微信小程序 WeUI 的轻量级补充。
+[wxu](https://github.com/vincheung/wxu) 微信小程序 WeUI 的轻量级补充，及其他组件（Authorize）。
 
 
 ## 预览
@@ -15,6 +15,8 @@
 <img src='https://github.com/vincheung/wxu/blob/master/assets/toast/toast-2.png' width='375' style="display:inline;" alt='preview' />
 
 <img src='https://github.com/vincheung/wxu/blob/master/assets/toast/toast-3.png' width='375' style="display:inline;" alt='preview' />
+
+<img src='https://github.com/vincheung/wxu/blob/master/assets/authorize/authorize.gif' width='375' style="display:inline;" alt='preview' />
 
 
 ## 使用

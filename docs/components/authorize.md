@@ -16,6 +16,7 @@ Authorize 方法在 onShow 生命周期函数中执行。授权完成 success �
 **Example**
 
 ```js
+// 请注意无 AppID 关联下，此页面功能是受限的
 import { Authorize } from '../../components/wxu'
 
 Page({
@@ -23,16 +24,17 @@ Page({
     // Authorize()
   },
   onShow() {
-    let that = this
     Authorize({
       scope: ['scope.userInfo', 'scope.userLocation'],
       success: () => {
-        that.init()
+        this.init()
       }
     })
   },
   init() {
-    console.log('授权完成，执行 init 函数')
+    this.setData({
+      success: '授权完成，执行 init 函数。'
+    })
   }
 })
 ```

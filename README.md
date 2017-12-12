@@ -10,11 +10,7 @@
 
 <img src='https://github.com/vincheung/wxu/blob/master/assets/wxu.png' width='375' style="display:inline;" alt='preview' />
 
-<img src='https://github.com/vincheung/wxu/blob/master/assets/toast/toast-1.png' width='375' style="display:inline;" alt='preview' />
-
-<img src='https://github.com/vincheung/wxu/blob/master/assets/toast/toast-2.png' width='375' style="display:inline;" alt='preview' />
-
-<img src='https://github.com/vincheung/wxu/blob/master/assets/toast/toast-3.png' width='375' style="display:inline;" alt='preview' />
+<img src='https://github.com/vincheung/wxu/blob/master/assets/authorize/toast.gif' width='375' style="display:inline;" alt='preview' />
 
 <img src='https://github.com/vincheung/wxu/blob/master/assets/authorize/authorize.gif' width='375' style="display:inline;" alt='preview' />
 
@@ -22,7 +18,7 @@
 ## 使用
 
 - 组件的 wxml 结构请看 `src/components/` 下的组件。
-- 样式文件可直接引用 `src/components/wxu.wxss`，或单独引用 `src/components/*/*.wxss`。
+- 样式文件可直接引用 `src/components/wxu.wxss`。
 
 
 ## 文档

@@ -29,19 +29,6 @@
   top: 75%;
 }
 
-.wxu-mask, .wxu-mask-transparent {
-  position: fixed;
-  z-index: 9999;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-}
-
-.wxu-mask {
-  background: rgba(0, 0, 0, 0.6);
-}
-
 .wxu-toast-text {
   padding: 20rpx;
   font-size: 28rpx;

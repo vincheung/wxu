@@ -58,16 +58,16 @@ class Component {
     this.setData({
       [`${this.params.scope}.wxuShow`]: true
     })
-    setTimeout(function() {
+    setTimeout(() => {
       let animation = wx.createAnimation({
         duration: duration,
         timingFunction: 'linear',
       })
       animation.opacity(1).step()
       this.setData({
-        [`${this.params.scope}.animationData`]: animation.export(),
+        [`${this.params.scope}.animation`]: animation.export(),
       })
-    }.bind(this), duration)
+    }, duration)
   }
 
   setHide(duration = 300) {
@@ -77,13 +77,13 @@ class Component {
     })
     animation.opacity(0).step()
     this.setData({
-      [`${this.params.scope}.animationData`]: animation.export(),
+      [`${this.params.scope}.animation`]: animation.export(),
     })
-    setTimeout(function () {
+    setTimeout(() => {
       this.setData({
         [`${this.params.scope}.wxuShow`]: false
       })
-    }.bind(this), duration)
+    }, duration)
   }
 }
 

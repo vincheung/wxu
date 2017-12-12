@@ -1,7 +1,7 @@
 <a name="toast"></a>
 
 # Toast(options)
-弹出式提示
+提示窗，支持文字与 icon 自由组合
 
 参数 | 说明 | 类型 | 可选值 | 默认值 
 --- | --- | --- | --- | ---
@@ -16,13 +16,13 @@ success | 关闭后的回调函数 | Function
 > 执行 Toast 方法会返回一个 Toast 实例，每个实例都有 close 方法，用于手动关闭 Toast
 ```js
 let instance = Toast({
-  duration: 3000,
+  duration: 10000,
   msg: '不负代码不负卿',
   success: () => console.log('showToast完成')
 })
 setTimeout(() => {
   instance.close()
-}, 2000)
+}, 3000)
 ```
 
 

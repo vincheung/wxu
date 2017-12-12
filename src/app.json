@@ -2,6 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/toast/toast",
+    "pages/popup/popup",
     "pages/authorize/authorize"
   ],
   "window": {

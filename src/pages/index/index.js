@@ -13,8 +13,8 @@ Page({
       },
       {
         name: 'Popup',
-        open: false,
-        url: ''
+        open: true,
+        url: '/pages/popup/popup'
       },
       {
         name: 'Authorize',

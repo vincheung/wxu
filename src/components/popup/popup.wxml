@@ -1,0 +1,13 @@
+<template name="popup">
+  <view hidden="{{ !wxuShow }}">
+    <view class="wxu-mask-transparent"></view>
+    <view animation="{{ animationPopup }}" class="wxu-popup-default">
+      <view class="{{ className ? className : 'wxu-popup-text' }}">{{ msg }}</view>
+    </view>
+  </view>
+  <view hidden="{{ !wxuPopupButtonShow }}">
+    <view animation="{{ animationPopupButton }}" class="wxu-mask-white">
+      <button bindtap="hideButton" class="{{ className ? className : 'wxu-popup-button' }}" type="{{ buttonType }}" plain="{{ plain }}">{{ msg }}</button>
+    </view>
+  </view>
+</template>

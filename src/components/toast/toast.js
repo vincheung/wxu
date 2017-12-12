@@ -22,6 +22,9 @@ function toast(params = {}) {
     params.icon = bol ? params.icon : ''
   }
   const data = Object.assign({}, DEFAULT, params)
+  if (!data.msg && !data.icon) {
+    return
+  }
   const component = new Component({
     scope: `wxu.toast`,
     data: data,
@@ -40,6 +43,7 @@ function toast(params = {}) {
       close() {
         clearTimeout(this.timer)
         this.setHide()
+        typeof data.success === `function` && data.success()
       }
     }
   })

@@ -1,1 +1,19 @@
 @import 'toast/toast.wxss';
+@import 'popup/popup.wxss';
+
+.wxu-mask, .wxu-mask-transparent, .wxu-mask-white {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.wxu-mask {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.wxu-mask-white {
+  background: white;
+}

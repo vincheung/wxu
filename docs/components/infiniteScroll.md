@@ -19,8 +19,10 @@ InfiniteScroll 结束：done(true)
 
 
 ## 说明
-注意小程序上拉触底事件的处理函数 onReachBottom 执行条件需元素内容到达底部。
-注册的事件函数需传入 done 方法。
+注意小程序上拉触底事件的处理函数 onReachBottom 执行条件需元素内容到达底部。   
+
+注册的事件函数需传入 done 方法。   
+
 若希望 InfiniteScroll 组件在内容不足时总显示在窗口底部，请参考例子中的 Sticky footers 布局。
 
 

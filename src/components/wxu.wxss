@@ -1,5 +1,6 @@
 @import 'toast/toast.wxss';
 @import 'popup/popup.wxss';
+@import 'infiniteScroll/infiniteScroll.wxss';
 
 .wxu-mask, .wxu-mask-transparent, .wxu-mask-white {
   position: fixed;

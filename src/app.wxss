@@ -1,7 +1,6 @@
 @import 'components/wxu.wxss';
 
 page {
-  background-color: #F8F8F8;
   font-size: 16px;
   font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
 }
@@ -25,4 +24,16 @@ page {
   color: #888888;
   text-align: left;
   font-size: 14px;
+}
+
+.weui-btn-area {
+  margin: 1.17647059em 15px .3em;
+}
+
+.weui-btn {
+  margin-top: 15px;
+}
+
+.weui-btn:first-child {
+  margin-top: 0;
 }

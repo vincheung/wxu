@@ -52,7 +52,6 @@ import { Popup } from '../../components/wxu'
 Page({
   Popup() {
     Popup({
-      duration: 3000,
       msg: '不负代码不负卿',
       success: () => console.log('PopupTop完成')
     })

@@ -1,0 +1,30 @@
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  min-height: 100%;
+}
+
+.main .sticky {
+  padding-bottom: 100rpx;
+}
+
+.footer {
+  position: relative;
+  margin-top: -100rpx;
+}
+
+.infinite-scroll-item {
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: solid 1rpx #eee;
+  text-align: center;
+}
+
+.infinite-scroll-item:first-of-type {
+  border-top: solid 1rpx #eee;
+}

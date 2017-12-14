@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/toast/toast",
     "pages/popup/popup",
+    "pages/infiniteScroll/infiniteScroll",
     "pages/authorize/authorize"
   ],
   "window": {

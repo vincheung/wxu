@@ -14,6 +14,8 @@
 
 <img src='https://github.com/vincheung/wxu/blob/master/assets/popup.gif' width='375' style="display:inline;" alt='preview' />
 
+<img src='https://github.com/vincheung/wxu/blob/master/assets/infiniteScroll.gif' width='375' style="display:inline;" alt='preview' />
+
 <img src='https://github.com/vincheung/wxu/blob/master/assets/authorize.gif' width='375' style="display:inline;" alt='preview' />
 
 
@@ -27,6 +29,7 @@
 
 * [Toast - 提示框](https://github.com/vincheung/wxu/blob/master/docs/components/toast.md)
 * [Popup - 弹出框](https://github.com/vincheung/wxu/blob/master/docs/components/popup.md)
+* [InfiniteScroll - 无限滚动](https://github.com/vincheung/wxu/blob/master/docs/components/infiniteScroll.md)
 * [Authorize - 授权流程](https://github.com/vincheung/wxu/blob/master/docs/components/authorize.md)
 
 

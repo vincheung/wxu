@@ -1,0 +1,17 @@
+<view class="page">
+  <view class="main">
+    <view class="sticky">
+      <view class="page__hd">
+        <view class="page__title">InfiniteScroll</view>
+        <view class="page__desc">无限滚动指令。</view>
+      </view>
+      <view>
+        <view wx:for="{{ list }}" wx:key="id" class="infinite-scroll-item">{{ item }}</view>
+      </view>
+    </view>
+  </view>
+  <view class="footer">
+    <import src="../../components/infiniteScroll/infiniteScroll.wxml"/>
+    <template is="infiniteScroll" data="{{ ...wxu.infiniteScroll }}"/>
+  </view>
+</view>

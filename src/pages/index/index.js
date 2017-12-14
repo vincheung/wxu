@@ -7,14 +7,14 @@ Page({
         url: '/pages/toast/toast'
       },
       {
-        name: 'Infinite Scroll',
-        open: false,
-        url: ''
-      },
-      {
         name: 'Popup',
         open: true,
         url: '/pages/popup/popup'
+      },
+      {
+        name: 'Infinite Scroll',
+        open: true,
+        url: '/pages/infiniteScroll/infiniteScroll'
       },
       {
         name: 'Authorize',

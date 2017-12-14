@@ -1,0 +1,31 @@
+.infinite-scroll-button {
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 24rpx;
+  border: none !important;
+}
+
+button[loading].infinite-scroll-snake::before {
+  content:" ";
+  display: inline-block;
+  height: 26rpx;
+  width: 26rpx;
+  border-radius: 100%;
+  border: 4rpx solid #666;
+  border-bottom-color: transparent;
+  vertical-align: middle;
+  animation: rotate 0.75s linear infinite;
+  background-size: 0;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

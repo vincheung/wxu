@@ -4,10 +4,10 @@ function popup(params = {}) {
   const PERPETUAL = -1
   const DURATION = 1500
   const DEFAULT = {
-    duration: DURATION,
     type: 'default',
-    className: '',
     msg: '',
+    className: '',
+    duration: DURATION,
     buttonType: '',
     plain: ''
   }

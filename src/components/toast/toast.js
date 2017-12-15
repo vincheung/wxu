@@ -4,10 +4,10 @@ function toast(params = {}) {
   const PERPETUAL = -1
   const DURATION = 1500
   const DEFAULT = {
-    duration: DURATION,
-    position: '',
-    className: '',
     msg: '',
+    position: '',
+    duration: DURATION,
+    className: '',
     icon: '',
     colol: ''
   }

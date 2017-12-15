@@ -19,13 +19,10 @@ button[loading].infinite-scroll-snake::before {
 }
 
 @keyframes rotate {
-  0% {
+  from {
     transform: rotate(0deg);
   }
-  50% {
-    transform: rotate(180deg);
-  }
-  100% {
+  to {
     transform: rotate(360deg);
   }
 }

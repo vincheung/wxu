@@ -2,10 +2,10 @@ import Component from '../component'
 
 function infiniteScroll(params = {}) {
   const DEFAULT = {
+    name: '',
     msg: '加载中...',
     doneMsg: '已无更多',
     spinnerType: 'fading-circle',
-    name: '',
     className: ''
   }
   const data = Object.assign({}, DEFAULT, params)
@@ -13,8 +13,8 @@ function infiniteScroll(params = {}) {
     scope: `wxu.infiniteScroll`,
     data: data,
     methods: {
-      done(param) {
-        if (!param) {
+      done(params) {
+        if (!params) {
           this.setData({
             [`${this.params.scope}.infiniteScrollShow`]: false
           })
@@ -27,15 +27,12 @@ function infiniteScroll(params = {}) {
         }
       },
       loadMore(...params) {
-        if (this.page.data.wxu.infiniteScroll.doneEnd) {
+        if (!this.page[data.name] || this.page.data.wxu.infiniteScroll.doneEnd) {
           return
         }
         this.setData({
           [`${this.params.scope}.infiniteScrollShow`]: true
         })
-        if (!this.page[data.name]) {
-          return
-        }
         this.page[data.name](this.done, ...params)
       },
       setLoadMore() {

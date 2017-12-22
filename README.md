@@ -10,32 +10,32 @@
 
 <img src='https://github.com/vincheung/wxu/blob/master/assets/wxu.png' width='375' style="display:inline;" alt='preview' />
 
-<img src='https://github.com/vincheung/wxu/blob/master/assets/toast.gif' width='375' style="display:inline;" alt='preview' />
+<img src='https://github.com/vincheung/wxu/blob/master/assets/wxu/toast.gif' width='375' style="display:inline;" alt='preview' />
 
-<img src='https://github.com/vincheung/wxu/blob/master/assets/popup.gif' width='375' style="display:inline;" alt='preview' />
+<img src='https://github.com/vincheung/wxu/blob/master/assets/wxu/popup.gif' width='375' style="display:inline;" alt='preview' />
 
-<img src='https://github.com/vincheung/wxu/blob/master/assets/infiniteScroll.gif' width='375' style="display:inline;" alt='preview' />
+<img src='https://github.com/vincheung/wxu/blob/master/assets/wxu/infiniteScroll.gif' width='375' style="display:inline;" alt='preview' />
 
-<img src='https://github.com/vincheung/wxu/blob/master/assets/authorize.gif' width='375' style="display:inline;" alt='preview' />
+<img src='https://github.com/vincheung/wxu/blob/master/assets/wxu/authorize.gif' width='375' style="display:inline;" alt='preview' />
 
 
 ## 使用
 
-- 组件的 wxml 结构请看 `src/components/` 下的组件。
-- 样式文件可直接引用 `src/components/wxu.wxss`。
+- 组件的 wxml 结构请看 `src/wxu/` 下的组件。
+- 样式文件可直接引用 `src/wxu/wxu.wxss`。
 
 
 ## 文档
 
-* [Toast - 提示框](https://github.com/vincheung/wxu/blob/master/docs/components/toast.md)
-* [Popup - 弹出框](https://github.com/vincheung/wxu/blob/master/docs/components/popup.md)
-* [InfiniteScroll - 无限滚动](https://github.com/vincheung/wxu/blob/master/docs/components/infiniteScroll.md)
-* [Authorize - 授权流程](https://github.com/vincheung/wxu/blob/master/docs/components/authorize.md)
+* [Toast - 提示框](https://github.com/vincheung/wxu/blob/master/docs/wxu/toast.md)
+* [Popup - 弹出框](https://github.com/vincheung/wxu/blob/master/docs/wxu/popup.md)
+* [InfiniteScroll - 无限滚动](https://github.com/vincheung/wxu/blob/master/docs/wxu/infiniteScroll.md)
+* [Authorize - 授权流程](https://github.com/vincheung/wxu/blob/master/docs/wxu/authorize.md)
 
 
 ## License
 
-The MIT License(http://opensource.org/licenses/MIT)
+The MIT License.
 
 
 ## 贡献

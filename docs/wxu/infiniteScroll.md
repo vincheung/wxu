@@ -7,7 +7,7 @@
 --- | --- | --- | --- | ---
 name | 注册的事件函数名 | String |
 msg | 触发时的文本内容 | String | | 加载中...
-doneMsg | 完成后的文本内容 | String | | 已无更多
+doneMsg | 结束的文本内容 | String | | 已无更多
 spinnerType | icon | String | fading-circle, snake | fading-circle
 className | 文本内容的自定义类名 | String
 
@@ -42,14 +42,14 @@ InfiniteScroll 结束：done(true)
     </view>
   </view>
   <view class="footer">
-    <import src="../../components/infiniteScroll/infiniteScroll.wxml"/>
+    <import src="../../wxu/infiniteScroll/infiniteScroll.wxml"/>
     <template is="infiniteScroll" data="{{ ...wxu.infiniteScroll }}"/>
   </view>
 </view>
 ```
 
 ```js
-import { InfiniteScroll } from '../../components/wxu'
+import { InfiniteScroll } from '../../wxu/wxu'
 
 Page({
   data: {

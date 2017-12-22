@@ -1,4 +1,4 @@
-<import src="../../components/toast/toast.wxml"/>
+<import src="../../wxu/toast/toast.wxml"/>
 <template is="toast" data="{{ ...wxu.toast }}"/>
 
 <view class="page">

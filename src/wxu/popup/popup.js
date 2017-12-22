@@ -70,7 +70,7 @@ function popup(params = {}) {
           })
         }, duration)
       },
-      hideButton() {
+      hideButton(event, duration = 300) {
         let animation = wx.createAnimation()
         animation.translateX('100%').step()
         this.setData({
@@ -81,7 +81,7 @@ function popup(params = {}) {
             [`${this.params.scope}.wxuPopupButtonShow`]: false
           })
           typeof data.success === `function` && data.success()
-        }, 300)
+        }, duration)
       },
       close() {
         clearTimeout(this.timer)

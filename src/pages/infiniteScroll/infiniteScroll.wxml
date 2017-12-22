@@ -11,7 +11,7 @@
     </view>
   </view>
   <view class="footer">
-    <import src="../../components/infiniteScroll/infiniteScroll.wxml"/>
+    <import src="../../wxu/infiniteScroll/infiniteScroll.wxml"/>
     <template is="infiniteScroll" data="{{ ...wxu.infiniteScroll }}"/>
   </view>
 </view>

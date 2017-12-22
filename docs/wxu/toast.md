@@ -29,7 +29,7 @@ setTimeout(() => {
 **Example**  
 
 ```html
-<import src="../../components/toast/toast.wxml"/>
+<import src="../../wxu/toast/toast.wxml"/>
 <template is="toast" data="{{ ...wxu.toast }}"/>
 
 <view class="page">
@@ -48,7 +48,7 @@ setTimeout(() => {
 ```
 
 ```js
-import { Toast } from '../../components/wxu'
+import { Toast } from '../../wxu/wxu'
 
 Page({
   showToast() {

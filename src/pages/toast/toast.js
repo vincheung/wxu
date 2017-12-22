@@ -1,4 +1,4 @@
-import { Toast } from '../../components/wxu'
+import { Toast } from '../../wxu/wxu'
 
 Page({
   showToast() {

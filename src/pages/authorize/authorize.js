@@ -1,5 +1,5 @@
 // 请注意无 AppID 关联下，此页面功能是受限的
-import { Authorize } from '../../components/wxu'
+import { Authorize } from '../../wxu/wxu'
 
 Page({
   onLoad() {

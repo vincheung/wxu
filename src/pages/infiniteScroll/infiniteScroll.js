@@ -1,4 +1,4 @@
-import { InfiniteScroll } from '../../components/wxu'
+import { InfiniteScroll } from '../../wxu/wxu'
 
 Page({
   data: {

@@ -1,4 +1,4 @@
-import { Popup } from '../../components/wxu'
+import { Popup } from '../../wxu/wxu'
 
 Page({
   Popup() {

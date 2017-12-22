@@ -1,4 +1,4 @@
-<import src="../../components/popup/popup.wxml"/>
+<import src="../../wxu/popup/popup.wxml"/>
 <template is="popup" data="{{ ...wxu.popup }}"/>
 
 <view class="page">

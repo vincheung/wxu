@@ -1,4 +1,4 @@
-@import 'components/wxu.wxss';
+@import 'wxu/wxu.wxss';
 
 page {
   font-size: 16px;

@@ -10,7 +10,8 @@ success | 授权完成的回调函数 | Function
 
 
 ## 说明
-Authorize 方法在 onShow 生命周期函数中执行。success 回调函数在授权列表全部完成后触发且默认只触发一次，即授权列表全部完成后再次触发 onShow 生命周期函数，success 回调函数将不再执行。  
+Authorize 方法在 onShow 生命周期函数中执行。success 回调函数在授权列表全部完成后触发且默认只触发一次，即授权列表全部完成后再次触发 onShow 生命周期函数，success 回调函数将不再执行。 
+ 
 若希望总是执行，请在 onLoad 生命周期函数中执行 `Authorize()`。
 
 

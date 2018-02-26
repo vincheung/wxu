@@ -40,4 +40,4 @@ The MIT License.
 
 ## 贡献
 
-如果你有好的意见或建议，欢迎给我提 issue 或 pull request。
+如果你有好的意见或建议，欢迎给我提 issue。

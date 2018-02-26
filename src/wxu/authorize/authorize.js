@@ -1,9 +1,12 @@
 import Component from '../component'
 
-const setAuthorize = (wx, scope, cb, data) => {
+const setAuthorize = (scope, data, cb) => {
   if (scope.length === 0) {
     wx.getSetting({
       success(res) {
+        if (!res.authSetting) {
+          return
+        }
         const authSetting = res.authSetting
         for (let item of data) {
           let bol = false
@@ -29,7 +32,7 @@ const setAuthorize = (wx, scope, cb, data) => {
   wx.authorize({
     scope: scope[0],
     complete() {
-      setAuthorize(wx, scope.slice(1), cb, data)
+      setAuthorize(scope.slice(1), data, cb)
     }
   })
 }
@@ -47,7 +50,7 @@ const authorize = (params = {}) => {
           nameSpace.$authorize = true
           return
         }
-        setAuthorize(wx, data.scope, () => {
+        setAuthorize(data.scope, data.scope, () => {
           if (!nameSpace.$show) {
             if (!nameSpace.$authorize) {
               nameSpace.$authorize = true
@@ -56,7 +59,7 @@ const authorize = (params = {}) => {
           } else {
             typeof cb === `function` && cb()
           }
-        }, data.scope)
+        })
       }
     }
   })

@@ -5,9 +5,9 @@
 
 参数 | 说明 | 类型 | 可选值 | 默认值 
 --- | --- | --- | --- | ---
-name | 注册的事件函数名 | String |
-msg | 触发时的文本内容 | String | | 加载中...
-doneMsg | 结束的文本内容 | String | | 已无更多
+name | 注册事件函数名 | String |
+msg | 触发时文本内容 | String | | 加载中...
+doneMsg | 结束时文本内容 | String | | 已无更多
 spinnerType | icon | String | fading-circle, snake | fading-circle
 className | 文本内容的自定义类名 | String
 
@@ -21,7 +21,7 @@ InfiniteScroll 结束：done(true)
 ## 说明
 注意小程序上拉触底事件的处理函数 onReachBottom 执行条件需元素内容到达底部。   
 
-注册的事件函数需传入 done 方法。   
+注册事件函数需传入 done 方法。   
 
 若希望 InfiniteScroll 组件在内容不足时总显示在窗口底部，请参考例子中的 Sticky footers 布局。
 

@@ -2,9 +2,6 @@
 import { Authorize } from '../../wxu/wxu'
 
 Page({
-  onLoad() {
-    // Authorize()
-  },
   onShow() {
     Authorize({
       scope: ['scope.userInfo', 'scope.userLocation'],

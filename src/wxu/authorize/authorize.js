@@ -44,21 +44,11 @@ const authorize = (params = {}) => {
     data: data,
     methods: {
       resolve(cb) {
-        let nameSpace = this.page.data
-        if (component.isEmptyObject(data)) {
-          nameSpace.$show = true
-          nameSpace.$authorize = true
+        if (!data.scope) {
           return
         }
         setAuthorize(data.scope, data.scope, () => {
-          if (!nameSpace.$show) {
-            if (!nameSpace.$authorize) {
-              nameSpace.$authorize = true
-              typeof cb === `function` && cb()
-            }
-          } else {
-            typeof cb === `function` && cb()
-          }
+          typeof cb === `function` && cb()
         })
       }
     }
